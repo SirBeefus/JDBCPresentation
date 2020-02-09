@@ -308,7 +308,7 @@ body {
 }
 .bgTop {
   z-index: 15;
-  opacity: 0.5;
+  opacity: 0;
 }
 .bgMiddle {
   z-index: 10;
