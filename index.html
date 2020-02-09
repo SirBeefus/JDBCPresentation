@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,10 +25,51 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<div class="waveWrapper waveAnimation">
+					<div class="waveWrapperInner bgTop">
+						<div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+					</div>
+					<div class="waveWrapperInner bgMiddle">
+						<div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+					</div>
+					<div class="waveWrapperInner bgBottom">
+						<div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+					</div>
+				</div>
+
+				<section data-markdown>
+					<textarea data-template>
+						# <p class="fragment fade-up">JDBC</p>
+						<p class="fragment fade-up">Java Database Connectivity</p>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						# <p class="fragment fade-up">JDBC</p>
+						<p class="fragment fade-up">Grundlegende Struktur</p>
+						<p class="fragment fade-up">Anwendung</p>
+					</textarea>
+				</section>
+				<section>JDBC
+					<section>
+						<p class="fragment fade-in-then-out">
+							<img data-src="jdbc.png" style="height: 90%; width: 90%">
+						</p>
+					</section>
+					<section>
+						<p class="fragment grow">Database</p>
+						<p class="fragment fade-up">MariaDB, MySQL, PostgreSQL</p>
+						<p class="fragment grow">Driver</p>
+						<p class="fragment fade-up">Typ-1, Typ-2, Typ-3, Typ-4</p>
+						<p class="fragment grow">Driver Manager</p>
+						<p class="fragment grow">JDBC API</p>
+						<p class="fragment grow">Java Application</p>
+					</section>
+				</section>
+				<section>Slide 3</section>
 			</div>
 		</div>
+
 
 		<script src="js/reveal.js"></script>
 
